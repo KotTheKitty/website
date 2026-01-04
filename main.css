@@ -230,6 +230,15 @@ img .button8831,
 	margin-top: 12px;
 }
 
+@media (max-width: 580px) {
+	.pagebody {
+		width: 420px;
+	}
+	.pagetitle::after {
+		content: " (Experimental compact layout)";
+	}
+}
+
 
 /*@media (max-width: 900000px) {
 	:root {
@@ -264,7 +273,7 @@ img .button8831,
 		height: 4.65rem;
 	}
 }*/
-@media (max-width: 620px) {
+/*@media (max-width: 620px) {
 	:root {
 		font-size: 12px;
 	}
@@ -355,3 +364,4 @@ img .button8831,
 		content: " is too big to display for your display. Please unzoom.";
 	}
 }
+*/
