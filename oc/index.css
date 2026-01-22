@@ -40,8 +40,8 @@
 	background: aqua;
 }
 
-#pagebody-oc #box1,
-#pagebody-oc #box2 {
+#box1,
+#box2 {
 	width: 20rem;
 	height: 30rem;
 }
