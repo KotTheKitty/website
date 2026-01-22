@@ -2,8 +2,20 @@
     width: 540px;
     height:140px;
 }
+.articletitle {
+    font-size: 18px;
+    color: #99ffff;
+}
+.articlepreview {
+    color: #ffffff;
+}
+.articletime {
+    color: #dddddd;
+    font-weight: bold;
+}
 img articleimage {
     width: 128px;
     height: 128px;
     object-fit: cover;
+    color: red;
 }
