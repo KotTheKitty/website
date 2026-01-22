@@ -1,17 +1,19 @@
 .box {
-    width: 540px;
+    width: 500px;
     height:140px;
 }
 .articletitle {
-    font-size: 18px;
+    font-size: 20px;
     color: #99ffff;
 }
 .articlepreview {
+    font-size: 12px;
     color: #ffffff;
 }
 .articletime {
     color: #dddddd;
     font-weight: bold;
+    font-size: 12px;
 }
 img articleimage {
     width: 128px;
