@@ -64,5 +64,8 @@
 		"prettier.printWidth": 100,
 		"prettier.bracketSameLine": true,
 		"prettier.useTabs": true,
+		"css.styleSheets": [
+        "*"
+    	]
 	},
 }
