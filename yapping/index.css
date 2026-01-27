@@ -1,12 +1,13 @@
 .box {
-	width: 500px;
+	width: 250px;
 	height: 64px;
 	display: inline-block;
     font-size: 0;
+    margin: 5px;
 }
 .leftcontainer {
     display: inline-block;
-    width: 436px;
+    width: 186px;
     height: 64px;
 }
 .rightcontainer {
@@ -39,7 +40,7 @@
     color:#ffffff;
     font-size: 12px;
 }
-img articleimage {
+img.articleimage {
 	width: 64px;
 	height: 64px;
 	object-fit: cover;
