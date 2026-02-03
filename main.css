@@ -27,6 +27,10 @@ a:active {
 	color: #ff0000;
 	text-decoration: wavy;
 }
+p {
+	margin: 0px;
+	padding: 0px;
+}
 
 iframe {
 	border: none;
@@ -52,19 +56,20 @@ iframe {
 	padding: 5px;
 	margin-bottom: 5px;
 	border: 2px solid #0077ff;
-	font-size: 16px;
 	width: 200px;
 	height: 40px;
+	font-size: 0px;
 }
 
 .pagenav a {
 	display: inline-block;
 	color: white;
+	font-size: 16px;
 	background: #bb49e7;
 	background: #bb00ff77;
 	border: 2px solid #00ffff;
 	text-decoration: none;
-	width: 77px;
+	width: 80px;
 	height: 15px;
 	text-align: center;
 	margin: 2px;
@@ -89,6 +94,7 @@ iframe {
 	text-align: center;
 	width: auto;
 	width: 580px;
+	font-size: 0px;
 }
 
 .box {
