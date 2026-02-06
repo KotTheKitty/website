@@ -1,0 +1,8 @@
+.box {
+    width: 200px;
+    height: 100px;
+}
+a {
+    display: block;
+    margin: 10px;
+}
