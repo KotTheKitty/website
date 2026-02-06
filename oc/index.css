@@ -1,32 +1,29 @@
-/*DON'T FORGET TO BRING MEDIA TAGS FROM MAIN HERE!*/
 .ocpagenav {
-	background: #ff5f47;
+	background: #c74d4d;
 	background: #ff582055;
 	margin: auto;
-	padding: 0.4rem;
-	margin-bottom: 0.5rem;
-	border: 0.2rem solid #a0b0ff;
-	border: 0.2rem solid #00ffff55;
-	border: 0.2rem solid #ff4000;
-	font-size: 1.25rem;
-	max-width: fit-content;
-	align-self: center;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 2px solid #ff4000;
+	width: 400px;
+	height: 40px;
+	font-size: 0px;
+
 }
 
 .ocpagenav a {
 	display: inline-block;
 	color: white;
+	font-size: 16px;
 	background: #ff5500;
-	border-width: 2px;
-	border: solid;
-	border: 0.2rem solid #ffd000;
+	border: 2px solid #ffd000;
 	text-decoration: none;
-	width: 7rem;
-	height: 1.25rem;
+	width: 80px;
+	height: 15px;
 	text-align: center;
-	margin: 0.2rem;
-	padding: 0.5rem;
-	padding-bottom: 0.7rem;
+	margin: 2px;
+	padding: 6px;
+	padding-bottom: 10px;
 	/*-webkit-text-stroke: white 0.05rem;*/
 	font-weight: 500;
 	vertical-align: middle;
@@ -40,16 +37,26 @@
 	background: aqua;
 }
 
+.box {
+	padding: 10px;
+}
+
 #box1,
 #box2 {
-	width: 20rem;
-	height: 30rem;
+	/*2:3*/
+	width: 250px;
+	height: 375px;
 }
 
-.ocloretext {
-	margin-top: 1rem;
+.ocinfo {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin: 0px 0px 20px 20px;
 }
 
+.oclore p {
+	margin: 10px 0px;
+}
 
 
 /*@media (max-width: 900000px) {

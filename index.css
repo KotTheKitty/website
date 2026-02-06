@@ -1,19 +1,28 @@
 #box1 {
-	width: 370px;
+	width: 372px;
 	height: 118px;
 }
 #box2 {
-	width: 130px;
+	width: 128px;
 	height: 118px;
 }
 #box3 {
-	width: 190px;
-	height: 72px;
+	font-size: 0px;
+	width: 192px;
+	height: 74px;
 	padding-bottom: auto;
 }
+#box3 img, #box3 textarea{
+	font-size: 12px;
+	margin: 4px;
+}
+#box3 a {
+	font-size: 12px;
+}
 #box4 {
-	width: 310px;
-	height: 72px;
+	font-size: 0;
+	width: 308px;
+	height: 74px;
 	text-align: center;
 	display: inline-block;
 }
@@ -59,5 +68,5 @@
 }
 
 .friendsbuttonsbox a img{
-	margin: 3px 1px;
+	margin: 3px;
 }
