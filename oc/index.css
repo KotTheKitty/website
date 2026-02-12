@@ -15,7 +15,7 @@
 	display: inline-block;
 	color: white;
 	font-size: 16px;
-	background: #ff5500;
+	background: #ff550099;
 	border: 2px solid #ffd000;
 	text-decoration: none;
 	width: 80px;
@@ -27,6 +27,9 @@
 	/*-webkit-text-stroke: white 0.05rem;*/
 	font-weight: 500;
 	vertical-align: middle;
+}
+a.ocnavselected {
+	background:#ff4000cc;
 }
 .ocpagenav a:hover {
 	color: aqua;

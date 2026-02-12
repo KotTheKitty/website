@@ -90,7 +90,7 @@ iframe {
 	font-size: 0px;
 }
 
-.pagenav a {
+.pagenav a, .navelement, a.navelement {
 	display: inline-block;
 	color: white;
 	font-size: 16px;
@@ -108,11 +108,14 @@ iframe {
 	font-weight: 500;
 	vertical-align: middle;
 }
-.pagenav a:hover {
+.navselected, a.navselected {
+	background: #912df5;
+}
+.pagenav a:hover, .navelement:hover, a.navelement:hover {
 	color: aqua;
 	background: red;
 }
-.pagenav a:active {
+.pagenav a:active, .navelement:active, a.navelement:active {
 	color: red;
 	background: aqua;
 }
