@@ -1,11 +1,14 @@
 .box {
     font-size: 14px;
 }
-#box1, #box4, #box5, #box8 {
-    height: 128px;
-    width: 372px;
+#box1 {
+    width: 530px;
+}
+#box4, #box5, #box8 {
+    height: 80px;
+    width: 420px;
 }
 #box2, #box3, #box6, #box7 {
-    height: 128px;
-    width: 128px;
+    height: 80px;
+    width: 80px;
 }
