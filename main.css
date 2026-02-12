@@ -41,6 +41,26 @@ p {
 	padding: 0px;
 }
 
+.button {
+	font-size: 14px;
+	padding: 5px;
+	background: #0011ff;
+	background: #0011ff77;
+	border: 2px solid #ff0000;
+	text-align: center;
+	margin: 5px;
+	font-weight: 500;
+	vertical-align: middle;
+}
+.button:hover {
+	color: aqua;
+	background: red;
+}
+.button:active {
+	color: red;
+	background: aqua;
+}
+
 iframe {
 	border: none;
 	padding: 0;
@@ -65,7 +85,7 @@ iframe {
 	padding: 5px;
 	margin-bottom: 5px;
 	border: 2px solid #0077ff;
-	width: 600px;
+	width: 540px;
 	height: 40px;
 	font-size: 0px;
 }
@@ -78,7 +98,7 @@ iframe {
 	background: #bb00ff77;
 	border: 2px solid #00ffff;
 	text-decoration: none;
-	width: 80px;
+	width: 70px;
 	height: 15px;
 	text-align: center;
 	margin: 2px;
