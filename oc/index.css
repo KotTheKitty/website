@@ -55,10 +55,12 @@ a.ocnavselected {
 	margin-bottom: 20px;
 	margin-left: 20px;
 	margin: 0px 0px 20px 20px;
+	font-size: 12px;
 }
 
 .oclore p {
 	margin: 10px 0px;
+	font-size: 12px;
 }
 
 
@@ -106,7 +108,7 @@ a.ocnavselected {
 @media (min-width: 730px) {
     nav a,
     .pagenav a {
-	  width: 5.8rem;
+		width: 5.8rem;
     }
 }*/
 @media (max-width: 700px) {
@@ -169,12 +171,12 @@ a.ocnavselected {
 		width: 7rem;
 	}
 
-	*/#pagebody-oc #box1,
+	*//*#pagebody-oc #box1,
 	#pagebody-oc #box2 {
 		width: 36rem;
 		height: 54rem;
 	}
-}/*
+}*//*
 @media (max-width: 490px) {
 	:root {
 		font-size: 10px;
@@ -193,5 +195,4 @@ a.ocnavselected {
 	.pagetitle::after {
 		content: " is too big to display for your display. Please unzoom.";
 	}
-}
-*/
+*/}
