@@ -1,5 +1,6 @@
 .box {
     font-size: 14px;
+    padding: 10px;
 }
 #box1 {
     width: 530px;
@@ -9,6 +10,7 @@
     width: 420px;
 }
 #box2, #box3, #box6, #box7 {
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
+    padding: 0px;
 }
