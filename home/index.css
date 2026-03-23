@@ -43,6 +43,10 @@
 	text-align: justify;
 	font-size: 13px;
 }
+.pronouns {
+	color: #bbbbbb;
+	display: inline;
+}
 
 .mybuttonbox div {
 	display: inline;
