@@ -85,7 +85,7 @@ iframe {
 	padding: 5px;
 	margin-bottom: 5px;
 	border: 2px solid #0077ff;
-	width: 540px;
+	width: 450px;
 	height: 40px;
 	font-size: 0px;
 }
@@ -98,7 +98,7 @@ iframe {
 	background: #bb00ff77;
 	border: 2px solid #00ffff;
 	text-decoration: none;
-	width: 70px;
+	width: 70px; /*90px*/
 	height: 15px;
 	text-align: center;
 	margin: 2px;
