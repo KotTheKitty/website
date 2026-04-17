@@ -4,9 +4,9 @@
 
 body {
 	font-family: Rubik, "Adwaita Sans", "Comic Sans MS", Roboto, fantasy, sans-serif, Ubuntu; /*hahahahahahaha no Ubuntu for youuu*/
-	background-color: #ffbbc3;
-	background-color: hsl(353, 100%, 87%);
-	background: #ffbbc3 url(/res/img/w.gif) repeat;
+	background-color: #ffbbc4;
+	/*background-color: hsl(353, 100%, 87%);*/
+	background: #ffbbc4 url(/res/img/w.gif) repeat;
 	font-weight: normal;
 	color: white;
 }
@@ -94,8 +94,8 @@ iframe {
 	display: inline-block;
 	color: white;
 	font-size: 16px;
-	background: #bb49e7;
-	background: #bb00ff77;
+	background: #c049e2;
+	background: #bb00ff88;
 	border: 2px solid #00ffff;
 	text-decoration: none;
 	width: 70px; /*90px*/
@@ -126,8 +126,8 @@ iframe {
 	border-color: #0000ff;*/
 	border: 2px solid #0000ff;
 	display: inline-block;
-	background: #e04be7;
-	background: #cc00ff99;
+	background: #e74ff0;
+	background: #cc00ff88;
 	padding: 8px;
 	margin: 5px;
 	text-align: left;
