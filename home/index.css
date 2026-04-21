@@ -31,6 +31,9 @@
 	width: 250px;
 	height: 100px;
 }
+.boxtitle {
+	display: block;
+}
 .introimage img,
 .introimage {
 	display: inline;
@@ -44,18 +47,12 @@
 	font-size: 13px;
 }
 .pronouns {
-	color: #bbbbbb;
+	color: #cccccc;
 	display: inline;
 }
 
-.mybuttonbox div {
+.mybuttonbox textarea {
 	display: inline;
-}
-.mybuttonbox div div {
-	display: inline-block;
-}
-#mybuttontext {
-	display: block;
 }
 #mybuttoncode {
 	padding: 0px;
@@ -64,10 +61,9 @@
 	width: 88px;
 	height: 31px;
 }
-
-#buttonguidelinestext {
+#buttonguidelines-text {
 	display: block;
-	width: 100%;
+	/*width: 100%;*/
 	text-align: center;
 }
 
