@@ -193,7 +193,7 @@ img .button8831,
 	margin-top: 12px;
 }
 
-@media (max-width: 580px) {
+@media screen and (max-width: 580px) {
 	.pagebody {
 		width: 420px;
 	}
