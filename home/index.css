@@ -16,11 +16,8 @@
 	font-size: 12px;
 	margin: 4px;
 }
-#box3 a {
-	font-size: 12px;
-}
 #box4 {
-	font-size: 0;
+	font-size: 0px;
 	width: 308px;
 	height: 74px;
 	text-align: center;
@@ -63,6 +60,7 @@
 }
 #buttonguidelines-text {
 	display: block;
+	font-size: 12px;
 	/*width: 100%;*/
 	text-align: center;
 }
