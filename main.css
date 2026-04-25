@@ -34,7 +34,7 @@ a:hover {
 }
 a:active {
 	color: #ff0000;
-	text-decoration: wavy;
+	text-decoration: underline;
 }
 p {
 	margin: 0px;
