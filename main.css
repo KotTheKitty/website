@@ -178,7 +178,7 @@ img .button8831,
 	width: 88px;
 	height: 31px;
 	-ms-interpolation-mode: nearest-neighbor;
-	image-rendering: pixelated;
+	/*image-rendering: pixelated;*/
 }
 
 .code {
