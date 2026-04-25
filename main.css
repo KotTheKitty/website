@@ -193,14 +193,14 @@ img .button8831,
 	margin-top: 12px;
 }
 
-@media screen and (max-width: 580px) {
+/*@media screen and (max-width: 580px) {
 	.pagebody {
 		width: 420px;
 	}
 	.pagetitle::after {
 		content: " (Experimental compact layout)";
 	}
-}
+}*/
 
 
 /*@media (max-width: 900000px) {
