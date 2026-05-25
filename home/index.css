@@ -1,40 +1,41 @@
-#box1 {
+#box-introduction {
 	width: 372px;
 	height: 118px;
 }
-#box2 {
+#box-links {
 	width: 128px;
 	height: 118px;
 }
-#box3 {
+#box-mybutton {
 	font-size: 0px;
 	width: 192px;
-	height: 74px;
+	height: 80px;
 }
-#box3 img, #box3 textarea{
+#box-fwenbuttons {
+	font-size: 0px;
+	width: 308px;
+	height: 80px;
+	text-align: center;
+}
+#box-fwenbuttons img,
+#box-fwenbuttons textarea {
 	font-size: 12px;
 	margin: 4px;
 }
-#box4 {
-	font-size: 0px;
-	width: 308px;
-	height: 74px;
-	text-align: center;
-	display: inline-block;
-}
-#box5,
-#box6 {
+#box-webrings,
+#box-chatbox {
 	width: 250px;
-	height: 100px;
+	height: 150px;
 }
 .introimage img,
 .introimage {
-	display: inline;
+	display: block;
+    float: left;
 	height: 128px;
 	width: 128px;
 }
 .introtext {
-	display: inline-block;
+	display: inline;
 	width: 238px;
 	text-align: justify;
 	font-size: 13px;
@@ -46,9 +47,6 @@
 	display: inline;
 }
 
-.mybuttonbox textarea {
-	display: inline;
-}
 #mybuttoncode {
 	padding: 0px;
 	margin: 0px;
@@ -59,7 +57,6 @@
 #buttonguidelines-text {
 	display: block;
 	font-size: 12px;
-	/*width: 100%;*/
 	text-align: center;
 }
 

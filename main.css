@@ -95,7 +95,8 @@ iframe {
 }
 
 .pagenav a, .navelement, a.navelement {
-	display: inline-block;
+	display: block;
+	float: left;
 	color: white;
 	font-size: 16px;
 	background: #c049e2;
@@ -129,7 +130,8 @@ iframe {
 	border-style: solid;
 	border-color: #0000ff;*/
 	border: 2px solid #0000ff;
-	display: inline-block;
+	display: block;
+	float: left;
 	background: #e74ff0;
 	background: #cc00ff88;
 	padding: 8px;
@@ -140,6 +142,20 @@ iframe {
 	width: auto;
 	height: auto;
 }
+
+.box * {
+	display: inline;
+}
+.box ul {
+	display: block;
+}
+.box li {
+	display: list-item;
+}
+a img {
+	border: none; /* I love internet explorer */
+}
+
 #box404, #box404 .pagenav {
 	background: none;
 	border: none;
@@ -184,143 +200,8 @@ img .button8831,
 }
 
 .wiptext {
+	display: block;
 	font-size: 36px;
 	text-align: center;
 	margin-top: 12px;
 }
-
-/*@media screen and (max-width: 580px) {
-	.pagebody {
-		width: 420px;
-	}
-	.pagetitle::after {
-		content: " (Experimental compact layout)";
-	}
-}*/
-
-
-/*@media (max-width: 900000px) {
-	:root {
-		font-size: 36px;
-	}
-	.button8831,
-	img .button8831, #mybuttoncode, .friendsbuttonsbox a img {
-		width: 176px;
-		height: 62px;
-	}
-	#pagebody-home #box3 {
-		height: 4.2rem;
-	}
-}
-@media (max-width: 3500px) {
-	:root {
-		font-size: 18px;
-	}
-	.button8831,
-	img .button8831,
-	#mybuttoncode,
-	.friendsbuttonsbox a img {
-		width: 88px;
-		height: 31px;
-}
-}
-@media (max-width: 1300px) {
-	:root {
-		font-size: 16px;
-	}
-	#pagebody-home #box3 {
-		height: 4.65rem;
-	}
-}*/
-/*@media (max-width: 620px) {
-	:root {
-		font-size: 12px;
-	}
-	.pagetitle {
-		font-size: 3.5rem;
-	}
-	.pagenav a {
-		width: 4.15rem;
-	}
-	.pagebody {
-		width: auto;
-		width: 40rem;
-	}
-	.boxtitle {
-		font-size: 1.3rem;
-		margin-bottom: 0.1rem;
-		margin-top: 0.1rem;
-	}
-    #navelement-photo::after {
-        content: "";
-    }
-	.box {
-		font-size: 1rem;
-	}
-	#pagebody-home #box1 {
-		width: 25rem;
-		height: 8rem;
-	}
-	#pagebody-home #box2 {
-		width: 7rem;
-		height: 8.5rem;
-		padding-top: 0.5rem;
-	}
-	#pagebody-home #box3 {
-		width: 9rem;
-		height: 8.9rem;
-	}
-	#pagebody-home #box4 {
-		width: 23rem;
-		height: 7rem;
-		height: fit-content;
-		text-align: center;
-	}
-	#pagebody-home #box5,
-	#pagebody-home #box6 {
-		width: 35.6rem;
-		height: 11rem;
-	}
-	
-	ul {
-		margin-left: 1rem;
-		font-size: 1rem;
-	}
-	#pagebody-home #box5 div {
-		display: inline-block;
-	}
-	.introtext {
-		width: 17.7rem;
-		font-size: 1rem;
-	}
-	.introimage img {
-		height: 7rem;
-		width: 7rem;
-	}
-	.pagetitle::after {
-		content: " is too big to display for your display. Please unzoom.";
-	}
-	.pagetitle::after {
-		content: " (Experimental compact layout)";
-	}
-}
-@media (max-width: 490px) {
-	:root {
-		font-size: 10px;
-	}
-	.pagetitle::after {
-		content: " is too big to display for your display. Please unzoom.";
-	}
-}
-@media (max-width: 410px) {
-	.pagetitle {
-		font-size: 30px;
-	}
-	:root {
-		font-size: 8px;
-	}
-	.pagetitle::after {
-		content: " is too big to display for your display. Please unzoom.";
-	}
-}
-*/
