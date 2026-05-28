@@ -1,207 +1,207 @@
 body {
-	font-family: Rubik, "Adwaita Sans", "Comic Sans MS", Roboto, fantasy, sans-serif, Ubuntu; /*hahahahahahaha no Ubuntu for youuu*/
-	background-color: #ffbbc4;
-	/*background-color: hsl(353, 100%, 87%);*/
-	background: #ffbbc4 url(/res/img/w.gif) repeat;
-	font-weight: normal;
-	color: white;
+    font-family: Rubik, "Adwaita Sans", "Comic Sans MS", Roboto, fantasy, sans-serif, Ubuntu; /*hahahahahahaha no Ubuntu for youuu*/
+    background-color: #ffbbc4;
+    /*background-color: hsl(353, 100%, 87%);*/
+    background: #ffbbc4 url(/res/img/w.gif) repeat;
+    font-weight: normal;
+    color: white;
 }
 
 .pagebody {
-	display: block;
-	margin: auto;
-	text-align: center;
-	width: auto;
-	width: 600px;
-	font-size: 0px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: auto;
+    width: 600px;
+    font-size: 0px;
 }
 
 a {
-	color: #00ffff;
-	text-decoration: none;
+    color: #00ffff;
+    text-decoration: none;
 }
 a:visited {
-	color: #00bbff;
-	text-decoration: none;
+    color: #00bbff;
+    text-decoration: none;
 }
 a:hover {
-	color: #ffbbc4;
-	text-decoration: underline;
+    color: #ffbbc4;
+    text-decoration: underline;
 }
 a:active {
-	color: #ff0000;
-	text-decoration: underline;
+    color: #ff0000;
+    text-decoration: underline;
 }
 p {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 h1 {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 h2 {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .button {
-	font-size: 14px;
-	padding: 5px;
-	background: #0011ff;
-	background: #0011ff77;
-	border: 2px solid #ff0000;
-	text-align: center;
-	margin: 5px;
-	font-weight: 500;
-	vertical-align: middle;
+    font-size: 14px;
+    padding: 5px;
+    background: #0011ff;
+    background: #0011ff77;
+    border: 2px solid #ff0000;
+    text-align: center;
+    margin: 5px;
+    font-weight: 500;
+    vertical-align: middle;
 }
 .button:hover {
-	color: aqua;
-	background: red;
+    color: aqua;
+    background: red;
 }
 .button:active {
-	color: red;
-	background: aqua;
+    color: red;
+    background: aqua;
 }
 
 iframe {
-	border: none;
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	height: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .pagetitle {
-	color: red;
-	text-align: center;
-	font-size: 50px;
-	font-weight: bold;
-	padding: 0px;
-	-webkit-text-stroke: white 2px;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0px;
+    -webkit-text-stroke: white 2px;
 }
 
 .pagenav {
-	background: #bb89d3;
-	background: #0000ff44;
-	margin: auto;
-	padding: 5px;
-	margin-bottom: 5px;
-	border: 2px solid #0077ff;
-	width: 450px;
-	height: 40px;
-	font-size: 0px;
+    background: #bb89d3;
+    background: #0000ff44;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #0077ff;
+    width: 450px;
+    height: 40px;
+    font-size: 0px;
 }
 
 .pagenav a, .navelement, a.navelement {
-	display: block;
-	float: left;
-	color: white;
-	font-size: 16px;
-	background: #c049e2;
-	background: #bb00ff88;
-	border: 2px solid #00ffff;
-	text-decoration: none;
-	width: 70px; /*90px*/
-	height: 15px;
-	text-align: center;
-	margin: 2px;
-	padding: 6px;
-	padding-bottom: 10px;
-	/*-webkit-text-stroke: white 0.05rem;*/
-	font-weight: 500;
-	vertical-align: middle;
+    display: block;
+    float: left;
+    color: white;
+    font-size: 16px;
+    background: #c049e2;
+    background: #bb00ff88;
+    border: 2px solid #00ffff;
+    text-decoration: none;
+    width: 70px; /*90px*/
+    height: 15px;
+    text-align: center;
+    margin: 2px;
+    padding: 6px;
+    padding-bottom: 10px;
+    /*-webkit-text-stroke: white 0.05rem;*/
+    font-weight: 500;
+    vertical-align: middle;
 }
 .navselected, a.navselected {
-	background: #912df5;
+    background: #912df5;
 }
 .pagenav a:hover, .navelement:hover, a.navelement:hover {
-	color: aqua;
-	background: red;
+    color: aqua;
+    background: red;
 }
 .pagenav a:active, .navelement:active, a.navelement:active {
-	color: red;
-	background: aqua;
+    color: red;
+    background: aqua;
 }
 
 .box {
-	/*border-width: 2px;
-	border-style: solid;
-	border-color: #0000ff;*/
-	border: 2px solid #0000ff;
-	display: block;
-	float: left;
-	background: #e74ff0;
-	background: #cc00ff88;
-	padding: 8px;
-	margin: 5px;
-	text-align: left;
-	vertical-align: top;
-	font-size: 12px;
-	width: auto;
-	height: auto;
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: #0000ff;*/
+    border: 2px solid #0000ff;
+    display: block;
+    float: left;
+    background: #e74ff0;
+    background: #cc00ff88;
+    padding: 8px;
+    margin: 5px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 12px;
+    width: auto;
+    height: auto;
 }
 
 .box * {
-	display: inline;
+    display: inline;
 }
 .box ul {
-	display: block;
+    display: block;
 }
 .box li {
-	display: list-item;
+    display: list-item;
 }
 a img {
-	border: none; /* I love internet explorer */
+    border: none; /* I love internet explorer */
 }
 
 #box404, #box404 .pagenav {
-	background: none;
-	border: none;
+    background: none;
+    border: none;
 }
 
 ul {
-	margin: 0px;
-	padding: 0px;
-	margin-left: 24px;
-	font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 24px;
+    font-size: 12px;
 }
 
 .boxtitle {
-	display: block;
-	text-align: center;
-	font-size: 18px;
-	font-weight: bold;
-	margin-bottom: 6px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
 }
 
 #box404 {
-	color: red;
-	font-size: 36px;
-	font-weight: bold;
-	width: auto;
-	height: auto;
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    width: auto;
+    height: auto;
 }
 
 .button8831,
 img .button8831,
 .friendsbuttonsbox a img {
-	width: 88px;
-	height: 31px;
-	-ms-interpolation-mode: nearest-neighbor;
-	/*image-rendering: pixelated;*/
+    width: 88px;
+    height: 31px;
+    -ms-interpolation-mode: nearest-neighbor;
+    /*image-rendering: pixelated;*/
 }
 
 .code {
-	background: #9e9e9e;
-	color: #ffffff;
-	font-family: monospace;
+    background: #9e9e9e;
+    color: #ffffff;
+    font-family: monospace;
 }
 
 .wiptext {
-	display: block;
-	font-size: 36px;
-	text-align: center;
-	margin-top: 12px;
+    display: block;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 12px;
 }

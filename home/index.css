@@ -1,65 +1,65 @@
 #box-introduction {
-	width: 372px;
-	height: 118px;
+    width: 372px;
+    height: 118px;
 }
 #box-links {
-	width: 128px;
-	height: 118px;
+    width: 128px;
+    height: 118px;
 }
 #box-mybutton {
-	font-size: 0px;
-	width: 192px;
-	height: 80px;
+    font-size: 0px;
+    width: 192px;
+    height: 80px;
 }
 #box-fwenbuttons {
-	font-size: 0px;
-	width: 308px;
-	height: 80px;
-	text-align: center;
+    font-size: 0px;
+    width: 308px;
+    height: 80px;
+    text-align: center;
 }
 #box-fwenbuttons img,
 #box-fwenbuttons textarea {
-	font-size: 12px;
-	margin: 4px;
+    font-size: 12px;
+    margin: 4px;
 }
 #box-webrings,
 #box-chatbox {
-	width: 250px;
-	height: 150px;
+    width: 250px;
+    height: 150px;
 }
 .introimage img,
 .introimage {
-	display: block;
+    display: block;
     float: left;
-	height: 128px;
-	width: 128px;
+    height: 128px;
+    width: 128px;
 }
 .introtext {
-	display: inline;
-	width: 238px;
-	text-align: justify;
-	font-size: 13px;
-	vertical-align: top;
+    display: inline;
+    width: 238px;
+    text-align: justify;
+    font-size: 13px;
+    vertical-align: top;
 }
 
 .pronouns {
-	color: #cccccc;
-	display: inline;
+    color: #cccccc;
+    display: inline;
 }
 
 #mybuttoncode {
-	padding: 0px;
-	margin: 0px;
-	border: 0px;
-	width: 88px;
-	height: 31px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    width: 88px;
+    height: 31px;
 }
 #buttonguidelines-text {
-	display: block;
-	font-size: 12px;
-	text-align: center;
+    display: block;
+    font-size: 12px;
+    text-align: center;
 }
 
 .friendsbuttonsbox a img{
-	margin: 3px;
+    margin: 3px;
 }
