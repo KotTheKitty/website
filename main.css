@@ -6,12 +6,10 @@ body {
     font-weight: normal;
     color: white;
 }
-
 .pagebody {
     display: block;
     margin: auto;
     text-align: center;
-    width: auto;
     width: 600px;
     font-size: 0px;
 }
@@ -44,6 +42,16 @@ h2 {
     margin: 0px;
     padding: 0px;
 }
+a img {
+    border: none;
+    /* I love internet explorer */
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 24px;
+    font-size: 12px;
+}
 
 .button {
     font-size: 14px;
@@ -63,14 +71,6 @@ h2 {
 .button:active {
     color: red;
     background: aqua;
-}
-
-iframe {
-    border: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .pagetitle {
@@ -93,7 +93,6 @@ iframe {
     height: 40px;
     font-size: 0px;
 }
-
 .pagenav a, .navelement, a.navelement {
     display: block;
     float: left;
@@ -111,7 +110,7 @@ iframe {
     padding-bottom: 10px;
     /*-webkit-text-stroke: white 0.05rem;*/
     font-weight: 500;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
 }
 .navselected, a.navselected {
     background: #912df5;
@@ -137,7 +136,7 @@ iframe {
     padding: 8px;
     margin: 5px;
     text-align: left;
-    vertical-align: top;
+    /*vertical-align: top;*/
     font-size: 12px;
     width: auto;
     height: auto;
@@ -146,26 +145,14 @@ iframe {
 .box * {
     display: inline;
 }
+.box p {
+    display: block;
+}
 .box ul {
     display: block;
 }
 .box li {
     display: list-item;
-}
-a img {
-    border: none; /* I love internet explorer */
-}
-
-#box404, #box404 .pagenav {
-    background: none;
-    border: none;
-}
-
-ul {
-    margin: 0px;
-    padding: 0px;
-    margin-left: 24px;
-    font-size: 12px;
 }
 
 .boxtitle {
@@ -174,6 +161,11 @@ ul {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 6px;
+}
+
+#box404, #box404 .pagenav {
+    background: none;
+    border: none;
 }
 
 #box404 {
