@@ -3,6 +3,9 @@
     height: 150px;
     font-size: 14px;
 }
+.pagebody {
+    width: 460px;
+}
 a, .button {
     display: block;
     margin: 15px;

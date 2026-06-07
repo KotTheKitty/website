@@ -1,5 +1,5 @@
 body {
-    font-family: Rubik, "Adwaita Sans", "Comic Sans MS", Roboto, fantasy, sans-serif, Ubuntu; /*hahahahahahaha no Ubuntu for youuu*/
+    font-family: Rubik, "Adwaita Sans", "Comic Sans MS", Roboto, "JetBrains Mono", sans-serif, Ubuntu; /*hahahahahahaha no Ubuntu for youuu*/
     background-color: #ffbbc4;
     /*background-color: hsl(353, 100%, 87%);*/
     background: #ffbbc4 url(/res/img/w.gif) repeat;
@@ -14,8 +14,41 @@ body {
     font-size: 0px;
 }
 
+/*** General compatibility and uniform styling ***/
+div {
+    display: block;
+}
+p {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+a img {
+    display: inline;
+    border: none;
+    /* I love internet explorer and netscape */
+    /* but wait, maybe they were onto something... */
+}
+.box ul {
+    display: block;
+}
+.box li {
+    display: list-item;
+}
+/*** *** ***/
+
 a {
-    color: #00ffff;
+    color: aqua;
     text-decoration: none;
 }
 a:visited {
@@ -27,50 +60,18 @@ a:hover {
     text-decoration: underline;
 }
 a:active {
-    color: #ff0000;
+    color: red;
     text-decoration: underline;
-}
-p {
-    margin: 0px;
-    padding: 0px;
-}
-h1 {
-    margin: 0px;
-    padding: 0px;
-}
-h2 {
-    margin: 0px;
-    padding: 0px;
-}
-a img {
-    border: none;
-    /* I love internet explorer */
-}
-ul {
-    margin: 0px;
-    padding: 0px;
-    margin-left: 24px;
-    font-size: 12px;
 }
 
 .button {
     font-size: 14px;
-    padding: 5px;
-    background: #0011ff;
-    background: #0011ff77;
-    border: 2px solid #ff0000;
+    padding: 20px;
+    border: 2px solid;
     text-align: center;
-    margin: 5px;
+    margin: 8px;
     font-weight: 500;
     vertical-align: middle;
-}
-.button:hover {
-    color: aqua;
-    background: red;
-}
-.button:active {
-    color: red;
-    background: aqua;
 }
 
 .pagetitle {
@@ -82,25 +83,31 @@ ul {
     -webkit-text-stroke: white 2px;
 }
 
+@supports (background-clip: text) {
+    .pagetitle {
+        background: linear-gradient(to right, red, fuchsia);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
 .pagenav {
     background: #bb89d3;
     background: #0000ff44;
     margin: auto;
     padding: 5px;
     margin-bottom: 5px;
-    border: 2px solid #0077ff;
+    border: 2px solid blue;
     width: 450px;
     height: 40px;
     font-size: 0px;
 }
 .pagenav a, .navelement, a.navelement {
-    display: block;
     float: left;
     color: white;
     font-size: 16px;
-    background: #c049e2;
-    background: #bb00ff88;
-    border: 2px solid #00ffff;
+    background: fuchsia;
+    border: 2px outset aqua;
     text-decoration: none;
     width: 70px; /*90px*/
     height: 15px;
@@ -120,21 +127,22 @@ ul {
     background: red;
 }
 .pagenav a:active, .navelement:active, a.navelement:active {
-    color: red;
-    background: aqua;
+    color: gray;
+    background: purple;
+    border-style: inset;
 }
 
 .box {
     /*border-width: 2px;
     border-style: solid;
     border-color: #0000ff;*/
-    border: 2px solid #0000ff;
+    border: medium solid blue;
+    padding: 10px;
+    margin: 7px;
     display: block;
     float: left;
-    background: #e74ff0;
-    background: #cc00ff88;
-    padding: 8px;
-    margin: 5px;
+    background: #ff70dc;
+    background: #ff00ff66;
     text-align: left;
     /*vertical-align: top;*/
     font-size: 12px;
@@ -142,25 +150,20 @@ ul {
     height: auto;
 }
 
-.box * {
-    display: inline;
-}
-.box p {
-    display: block;
-}
-.box ul {
-    display: block;
-}
-.box li {
-    display: list-item;
-}
-
 .boxtitle {
     display: block;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 6px;
+    margin-bottom: 3px;
+    height: 22px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+    font-size: 12px;
 }
 
 #box404, #box404 .pagenav {
@@ -181,13 +184,13 @@ img .button8831,
 .friendsbuttonsbox a img {
     width: 88px;
     height: 31px;
-    -ms-interpolation-mode: nearest-neighbor;
+    /*-ms-interpolation-mode: nearest-neighbor;*/
     /*image-rendering: pixelated;*/
 }
 
 .code {
-    background: #9e9e9e;
-    color: #ffffff;
+    background: #999999;
+    color: white;
     font-family: monospace;
 }
 

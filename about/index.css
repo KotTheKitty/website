@@ -1,19 +1,23 @@
 .box {
     font-size: 14px;
 }
+.linkbar {
+    /* for later */
+    display: none;
+}
 #box-aboutdescintro {
-    width: 530px;
+    width: 560px;
 }
 #box-aboutimgpc, #box-aboutimgfood, #box-aboutimggrosnounours {
-    height: 96px;
-    width: 96px;
+    height: 128px;
+    width: 128px;
     padding: 0px;
 }
 #box-aboutdeschobbies, #box-aboutdescfood, #box-aboutdescgrosnounours {
-    height: 80px;
-    width: 420px;
+    height: 108px;
+    width: 412px;
 }
 img {
-    height: 96px;
-    width: 96px;
+    height: 128px;
+    width: 128px;
 }
