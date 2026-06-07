@@ -2,13 +2,13 @@
     background: #c74d4d;
     background: #ff582055;
     margin-bottom: 5px;
-    border: 2px solid #ff4000;
+    border: medium solid #ff4000;
     width: 500px;
 }
 
 .ocpagenav a {
     background: #ff550099;
-    border: 2px solid #ffd000;
+    border: medium outset #ffd000;
     width: 80px;
 }
 a.ocnavselected {
@@ -17,10 +17,12 @@ a.ocnavselected {
 .ocpagenav a:hover {
     color: aqua;
     background: red;
+    border-style: outset;
 }
 .ocpagenav a:active {
     color: red;
     background: aqua;
+    border-style: inset;
 }
 
 #box1,
