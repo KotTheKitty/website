@@ -2,13 +2,13 @@
     background: #c74d4d;
     background: #ff582055;
     margin-bottom: 5px;
-    border: medium solid #ff4000;
+    border: 3px solid #ff4000;
     width: 500px;
 }
 
 .ocpagenav a {
     background: #ff550099;
-    border: medium outset #ffd000;
+    border: 3px outset #ffd000;
     width: 80px;
 }
 a.ocnavselected {

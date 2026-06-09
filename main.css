@@ -67,7 +67,7 @@ a:active {
 .button {
     font-size: 14px;
     padding: 20px;
-    border: medium outset;
+    border: 3px outset;
     text-align: center;
     margin: 8px;
     font-weight: 500;
@@ -103,7 +103,7 @@ a:active {
     margin: auto;
     padding: 5px;
     margin-bottom: 5px;
-    border: medium solid blue;
+    border: 3px solid blue;
     width: 450px;
     height: 40px;
     font-size: 0px;
@@ -113,7 +113,7 @@ a:active {
     color: white;
     font-size: 16px;
     background: fuchsia;
-    border: medium outset aqua;
+    border: 3px outset aqua;
     text-decoration: none;
     width: 70px; /*90px*/
     height: 15px;
@@ -142,7 +142,7 @@ a:active {
     /*border-width: 2px;
     border-style: solid;
     border-color: #0000ff;*/
-    border: medium solid blue;
+    border: 3px solid blue;
     padding: 10px;
     margin: 7px;
     display: block;
