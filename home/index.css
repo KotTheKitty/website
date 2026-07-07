@@ -12,12 +12,12 @@
 }
 #box-smisc {
     width: 324px;
-    height: 230px;
+    height: 189px;
 }
 #box-fwenbuttons {
     font-size: 0px;
     width: 196px;
-    height: 230px;
+    height: 189px;
     text-align: center;
 }
 #box-fwenbuttons img,
@@ -70,13 +70,14 @@
 }
 
 #div-listening * {
-    font-size: 14px;
     display: block;
 }
 
-#div-listening .text {
-    padding-left: 20px;
+#div-listening {
     font-size: 14px;
+    display: block;
+    text-align: center;
+    width: 324px;
 }
 
 #track-name {

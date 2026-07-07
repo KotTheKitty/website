@@ -21,7 +21,7 @@ function loadURL(url, callback) {
     xhttp.send();
 }
 loadURL("https://api.listenbrainz.org/1/user/KittyKot/playing-now", playingNow)
-setInterval(function() {loadURL("https://api.listenbrainz.org/1/user/KittyKot/playing-now", playingNow)}, 15000);
+setInterval(function() {loadURL("https://api.listenbrainz.org/1/user/KittyKot/playing-now", playingNow)}, 20000);
 
 function playingNow(data) {
     var playingNowJSON = JSON.parse(data.responseText);
