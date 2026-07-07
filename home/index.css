@@ -28,7 +28,7 @@
 #box-webrings,
 #box-chatbox {
     width: 260px;
-    height: 150px;
+    height: 260px;
 }
 
 .introimage img,
@@ -67,4 +67,29 @@
 
 .friendsbuttonsbox a img{
     margin: 3px;
+}
+
+#div-listening * {
+    font-size: 14px;
+    display: block;
+}
+
+#div-listening .text {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+#track-name {
+    font-size: 14px;
+}
+
+#track-album, #track-artist {
+    margin-top: 10px;
+}
+
+#album-cover-link, #album-cover-img {
+    height: 128px;
+    width: 128px;
+    float: left;
+    margin-right: 20px;
 }
