@@ -20,7 +20,7 @@ function loadURL(url, callback) {
     xhttp.open("GET", url, true);
     xhttp.send();
 }
-loadURL("https://api.listenbrainz.org/1/user/KittyKot/playing-now", playingNow)
+loadURL("https://api.listenbrainz.org/1/user/KittyKot/playing-now", playingNow);
 setInterval(function() {loadURL("https://api.listenbrainz.org/1/user/KittyKot/playing-now", playingNow)}, 20000);
 
 function playingNow(data) {
@@ -52,7 +52,7 @@ function playingNow(data) {
         "https://musicbrainz.org/release/" +
         metadata.additional_info.release_mbid;
         loadURL("https://coverartarchive.org/release/" +
-        metadata.additional_info.release_mbid, albumCover)
+        metadata.additional_info.release_mbid, albumCover);
         function albumCover(data) {
             document.getElementById("album-cover-img").src =
             JSON.parse(data.responseText).images[0].thumbnails.small;
@@ -62,6 +62,15 @@ function playingNow(data) {
         document.getElementById("track-artist").href =
         "https://musicbrainz.org/artist/" +
         metadata.additional_info.artist_mbids[0];
+    }
+    if (metadata.additional_info.media_player) {
+        if (metadata.additional_info.media_player_version) {
+            document.getElementById("boxtitle-listening").innerHTML =
+            `${metadata.additional_info.media_player} ${metadata.additional_info.media_player_version} (ListenBrainz)`;
+        } else {
+            document.getElementById("boxtitle-listening").innerHTML =
+            `${metadata.additional_info.media_player} (ListenBrainz)`;
+        }
     }
 }
 }
