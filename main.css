@@ -35,9 +35,10 @@ h2 {
 }
 a img {
     display: inline;
-    border: none;
+    border: 2px solid #0000ff;
     /* I love internet explorer and netscape */
     /* but wait, maybe they were onto something... */
+    /* is it good? */
 }
 .box ul {
     display: block;
@@ -47,20 +48,24 @@ a img {
 }
 /*** *** ***/
 
-a {
-    color: aqua;
+a, a img {
+    color: #00ffff;
+    border-color: #00ffff;
     text-decoration: none;
 }
-a:visited {
-    color: #00bbff;
+a:visited, a:visited img {
+    color: #00cfff;
+    border-color: #00cfff;
     text-decoration: none;
 }
-a:hover {
+a:hover, a:hover img {
     color: #ffbbc4;
+    border-color: #ffbbc4;
     text-decoration: underline;
 }
-a:active {
-    color: red;
+a:active, a:active img {
+    color: #ff0000;
+    border-color: #ff0000;
     text-decoration: underline;
 }
 

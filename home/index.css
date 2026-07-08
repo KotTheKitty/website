@@ -11,13 +11,13 @@
     margin: 0px 20px 10px 20px;
 }
 #box-smisc {
-    width: 324px;
-    height: 189px;
+    width: 316px;
+    height: 205px;
 }
 #box-fwenbuttons {
     font-size: 0px;
-    width: 196px;
-    height: 189px;
+    width: 204px;
+    height: 205px;
     text-align: center;
 }
 #box-fwenbuttons img,
@@ -74,14 +74,16 @@
 }
 
 #div-listening {
+    margin-top: 5px;
     font-size: 14px;
     display: block;
     text-align: center;
     width: 324px;
+    text-decoration: none;
 }
 
 #track-name {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #track-album, #track-artist {

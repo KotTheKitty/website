@@ -21,47 +21,49 @@ p a {
     padding: 0px;
 }
 
-.accept {
+a.accept {
     color: #ffffff;
     background: #40a02b;
     background: #40a02b99;
     border-color:#00ff00;
 }
-.accept:visited {
+a.accept:visited {
     color: #ffffff;
 }
-.accept:hover {
+a.accept:hover {
     color: #00ff00;
     background: #41a12b;
 }
-.accept:active {
+a.accept:active {
     background: #b9eaae;
 }
-.decline {
+a.decline {
     color: #ffffff;
     background: #d20f39;
     background: #d20f3999;
     border-color: #ff0000;
 }
-.decline:visited {
+a.decline:visited {
     color: #ffffff;
 }
-.decline:hover {
+a.decline:hover {
     color:#ff0000;
     background: #d20f39;
 }
-.decline:active {
+a.decline:active {
     background: #f8a0b3;
 }
 
 /*wawawa*/
 .invalid a {
     color: #cacaca;
+    background: #888888;
     background: #88888888;
     border-color: #cacaca;
 }
 .invalid a:hover {
-    background: #66666688;
     color: #bababa;
+    background: #666666;
+    background: #66666688;
     border-color: #bababa;
 }

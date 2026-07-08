@@ -21,7 +21,7 @@ function loadURL(url, callback) {
     xhttp.send();
 }
 loadURL("https://api.listenbrainz.org/1/user/KittyKot/playing-now", playingNow);
-setInterval(function() {loadURL("https://api.listenbrainz.org/1/user/KittyKot/playing-now", playingNow)}, 20000);
+setInterval(function() {loadURL("https://api.listenbrainz.org/1/user/KittyKot/playing-now", playingNow)}, 30000);
 
 function playingNow(data) {
     var playingNowJSON = JSON.parse(data.responseText);
@@ -30,11 +30,12 @@ function playingNow(data) {
     var divListening = document.getElementById("div-listening");
 
     divListening.innerHTML = `
-    <a class="album-cover track" id="album-cover-link"><img id="album-cover-img" alt="Cover for ${metadata.release_name}" title="Cover for ${metadata.release_name}"></a>
+    <a class="album-cover track" id="album-cover-link" href="https://listenbrainz.org/user/KittyKot">
+    <img id="album-cover-img" alt="No cover artwork." title="No cover artwork."></a>
     <a class="text listenbrain-link" href="https://listenbrainz.org/user/KittyKot">Listening to:</a>
     <a class="track-name track" id="track-name" href="https://listenbrainz.org/user/KittyKot">${metadata.track_name}</a>
     <a class="track-album track" id="track-album" href="https://listenbrainz.org/user/KittyKot">(${metadata.release_name})</a>
-    <a class="track-artist track" id="track-artist">by ${metadata.artist_name}</a>
+    <a class="track-artist track" id="track-artist" href="https://listenbrainz.org/user/KittyKot">by ${metadata.artist_name}</a>
     `;
 
     if (metadata.additional_info.recording_mbid) {
@@ -56,6 +57,10 @@ function playingNow(data) {
         function albumCover(data) {
             document.getElementById("album-cover-img").src =
             JSON.parse(data.responseText).images[0].thumbnails.small;
+            document.getElementById("album-cover-img").alt =
+            `Artwork for the album cover of ${metadata.release_name}.`;
+            document.getElementById("album-cover-img").title =
+            `Artwork for the album cover of ${metadata.release_name}.`;
         }
     }
     if (metadata.additional_info.artist_mbids) {
@@ -71,6 +76,8 @@ function playingNow(data) {
             document.getElementById("boxtitle-listening").innerHTML =
             `${metadata.additional_info.media_player} (ListenBrainz)`;
         }
+    } else {
+        document.getElementById("boxtitle-listening").innerHTML = "ListenBrainz";
     }
 }
 }
