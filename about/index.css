@@ -2,8 +2,31 @@
     font-size: 14px;
 }
 .linkbar {
-    /* for later */
-    display: none;
+
+    width: 560px;
+    padding: 10px;
+}
+.linkbar-element {
+    /*border: 3px outset;*/
+    /*8+8px free if no margin or border*/
+    display: block;
+    height: 64px;
+    width: 64px;
+    border: none;
+    margin: 8px;
+    padding: 0px;
+    float: left;
+}
+.linkbar-element:visited, .linkbar-element:hover, .linkbar-element:active {
+    border: none;
+}
+
+.linkbar-element img {
+    border: none;
+    display: block;
+    height: 64px;
+    width: 64px;
+    padding: 0px;
 }
 #box-aboutdescintro {
     width: 560px;

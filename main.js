@@ -1,11 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 if (document.getElementById("pagebody-entrywarning")) {
-    document.getElementById("pagebody-entrywarning")
-    .querySelector("#box2")
-    .lastElementChild.onclick = () => history.back();
-    document.getElementById("pagebody-entrywarning")
-    .querySelector("#box2")
-    .lastElementChild.innerHTML = "Go back please.";
+    document.getElementById("pagebody-entrywarning").querySelector("#box2").lastElementChild.onclick = () => history.back();
+    document.getElementById("pagebody-entrywarning").querySelector("#box2").lastElementChild.innerHTML = "Go back please.";
 }
 
 if (document.getElementById("pagebody-home")) {
@@ -25,8 +21,7 @@ setInterval(function() {loadURL("https://api.listenbrainz.org/1/user/KittyKot/pl
 
 function playingNow(data) {
     var playingNowJSON = JSON.parse(data.responseText);
-    var metadata = playingNowJSON.payload
-    .listens[0].track_metadata
+    var metadata = playingNowJSON.payload.listens[0].track_metadata
     var divListening = document.getElementById("div-listening");
 
     divListening.innerHTML = `
