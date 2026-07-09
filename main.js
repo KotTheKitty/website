@@ -75,5 +75,12 @@ function playingNow(data) {
         document.getElementById("boxtitle-listening").innerHTML = "ListenBrainz";
     }
 }
+
+loadURL("https://v1.nocodeapi.com/kot/xml_to_json/ypuIicggTmzdnknK?url=https://www.imood.com/users/KittyKot", mood);
+function mood(data) {
+    var bigAssThing = JSON.parse(data.responseText);
+    var moodLabel = bigAssThing.html.body.div[1].div[0].div[0].div[1].div[1].div[1].a._.replace(/[\n\r\s]+/g, '');
+    document.getElementById("div-mood").innerHTML = moodLabel;
+}
 }
 });

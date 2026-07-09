@@ -47,6 +47,12 @@
     vertical-align: top;
 }
 
+#div-mood img, #div-mood {
+    color: #ffffff;
+    text-decoration: underline;
+    border: none;
+}
+
 .pronouns {
     color: #cccccc;
     display: inline;
