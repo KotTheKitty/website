@@ -3,6 +3,7 @@ body {
     background-color: #ffbbc4;
     /*background-color: hsl(353, 100%, 87%);*/
     background: #ffbbc4 url(/res/img/w.gif) repeat;
+    image-rendering: pixelated;
     font-weight: normal;
     color: white;
 }
@@ -12,6 +13,17 @@ body {
     text-align: center;
     width: 600px;
     font-size: 0px;
+}
+
+@keyframes background {
+    from {background-position: 0px 48px;}
+    to {background-position: 48px 0px;}
+}
+@supports (background-position: 0% 100%) and (animation: background 1200ms linear infinite) {
+    body {
+        background: #ffbbc4 url(/res/img/w.png) repeat;
+        animation: background 2400ms linear infinite;
+    }
 }
 
 /*** General compatibility and uniform styling ***/
@@ -32,6 +44,9 @@ h2 {
     display: block;
     margin: 0px;
     padding: 0px;
+}
+img {
+    image-rendering: auto;
 }
 a img {
     display: inline;
