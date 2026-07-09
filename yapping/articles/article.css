@@ -19,6 +19,32 @@ p {
     font-size: 16px;
     margin: 10px;
 }
-img {
-    /* on the right */
+.article_img {
+    float: right;
+    margin: 10px 10px;
+    width: 64px;
+    height: 64px;
+}
+.article_sidebar {
+    float: right;
+}
+.article hr {
+    width: 90%;
+    height: 5px;
+    border: none;
+    margin: 30px auto;
+    background-color: #ffbbc4;
+}
+.article_end {
+    margin: 20px auto 0px auto;
+    width: 90%;
+    border: 0px solid #ff00ff;
+    border-width: 2px 0px;
+}
+.article_end p {
+    text-align: center;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #eeeeee;
 }
