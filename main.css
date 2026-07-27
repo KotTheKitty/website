@@ -215,9 +215,11 @@ img .button8831,
 }
 
 .code {
+    position: relative;
     background: #999999;
     color: white;
     font-family: monospace;
+    z-index: 1;
 }
 
 .wiptext {
