@@ -54,7 +54,7 @@
 }
 
 .pronouns {
-    color: #cccccc;
+    color: #dddddd;
     display: inline;
 }
 
@@ -85,7 +85,7 @@
     font-size: 14px;
     display: block;
     text-align: center;
-    width: 324px;
+    width: 322px;
     text-decoration: none;
 }
 
@@ -101,5 +101,5 @@
     height: 128px;
     width: 128px;
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
 }

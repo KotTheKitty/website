@@ -2,7 +2,6 @@
     font-size: 14px;
 }
 .linkbar {
-
     width: 560px;
     padding: 10px;
 }
@@ -22,12 +21,21 @@
 }
 
 .linkbar-element img {
+    filter: brightness(100%);
     border: none;
     display: block;
     height: 64px;
     width: 64px;
     padding: 0px;
 }
+
+.linkbar-element:hover img {
+    filter: brightness(80%);
+}
+.linkbar-element:active img {
+    filter: brightness(0%);
+}
+
 #box-aboutdescintro {
     width: 560px;
 }

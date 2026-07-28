@@ -19,7 +19,7 @@ body {
     from {background-position: 0px 48px;}
     to {background-position: 48px 0px;}
 }
-@supports (background-position: 0% 100%) and (animation: background 1200ms linear infinite) {
+@supports (background-position: 0px 48px) and (animation: background 2400ms linear infinite) {
     body {
         background: #ffbbc4 url(/res/img/w.png) repeat;
         animation: background 2400ms linear infinite;
