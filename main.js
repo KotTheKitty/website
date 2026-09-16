@@ -20,10 +20,15 @@ loadURL("https://api.listenbrainz.org/1/user/KittyKot/playing-now", playingNow);
 setInterval(function() {loadURL("https://api.listenbrainz.org/1/user/KittyKot/playing-now", playingNow)}, 30000);
 
 function playingNow(data) {
-    var playingNowJSON = JSON.parse(data.responseText);
-    var metadata = playingNowJSON.payload.listens[0].track_metadata
     var divListening = document.getElementById("div-listening");
+    var playingNowJSON = JSON.parse(data.responseText);
 
+    if (!playingNowJSON.payload.listens.length) {
+        divListening.innerHTML = `<a href="https://listenbrainz.org/user/KittyKot">Currently not listening to anything.</a>`;
+        return 0;
+    }
+
+    var metadata = playingNowJSON.payload.listens[0].track_metadata
     divListening.innerHTML = `
     <a class="album-cover track" id="album-cover-link" href="https://listenbrainz.org/user/KittyKot">
     <img id="album-cover-img" alt="No cover artwork." title="No cover artwork."></a>
